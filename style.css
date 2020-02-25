@@ -18,6 +18,13 @@ body {
   height: 100%;
 }
 
+.wrapper > p {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
 .scrollbar {
   position: absolute;
   right: 0;
@@ -39,7 +46,6 @@ body {
   height: 20%;
   background-color: #aaaaaa;
   border-radius: 8px;
-  top: 0;
   right: 0;
 }
 /*# sourceMappingURL=style.css.map */
